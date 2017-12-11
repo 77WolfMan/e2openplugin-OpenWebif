@@ -51,7 +51,7 @@ def getOpenWebifVer():
 	return OPENWEBIFVER
 
 def getFriendlyImageDistro():
-	dist = getImageDistro().replace("openatv","OpenpLUS")
+	dist = getImageDistro().replace("openatv","OpenATV").replace("openhdf","OpenHDF").replace("openpli","OpenPLi").replace("openvix","OpenViX")
 	return dist
 
 def getIPMethod(iface):
